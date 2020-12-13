@@ -4,12 +4,15 @@
 
 /*
 Plugin Name: Archivist
-Plugin URI: http://www.benhuson.co.uk/wordpress-plugins/archivist/
+Plugin URI: https://github.com/benhuson/archivist
 Description: Hello, I'm an archivist. I'll look after all your old stuff and file it sensibly where people can find it. Not really, I'll just give you a few extra options for the archive widget.
 Version: 1.0.2
+Requires at least: 4.3
+Requires PHP: 5.6
 Author: Ben Huson
-Author URI: http://www.benhuson.co.uk/
-License: GPL2
+Author URI: https://github.com/benhuson
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: archivist
 Domain Path: /languages
 */

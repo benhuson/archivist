@@ -1,10 +1,13 @@
 === Archivist ===
 Contributors: husobj
-Donate link: http://www.benhuson.co.uk/wordpress-plugins/archivist/
+Donate link: https://www.paypal.com/donate?hosted_button_id=YLM4WLRBZPADU
 Tags: wp_get_archives, archives, yearly, monthly, weekly, daily, widget
-Requires at least: 3.0
-Tested up to: 3.3
+Requires at least: 4.3
+Tested up to: 5.6
+Requires PHP: 5.6
 Stable tag: 1.0.2
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Gives you a few extra function for the archives widget including limiting the amount of archives to show and wether you want to display yearly, monthly, weekly or daily archive links.
 
