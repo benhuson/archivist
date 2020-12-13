@@ -37,17 +37,18 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 class WP_Widget_Archivist extends WP_Widget {
 
-	function WP_Widget_Archivist() {
-	
+	public function __construct() {
+
 		$widget_ops = array(
 			'classname'   => 'widget_archive',
 			'description' => __( 'An archive of your site&#8217;s posts')
 		);
-		$this->WP_Widget( 'archivist_archives', 'Archivist', $widget_ops );
-		
+
+		parent::__construct( 'archivist_archives', 'Archivist', $widget_ops );
+
 	}
 
-	function widget( $args, $instance ) {
+	public function widget( $args, $instance ) {
 		
 		extract( $args );
 		
@@ -90,7 +91,7 @@ class WP_Widget_Archivist extends WP_Widget {
 		
 	}
 	
-	function update( $new_instance, $old_instance ) {
+	public function update( $new_instance, $old_instance ) {
 	
 		$instance = $old_instance;
 		
@@ -112,7 +113,7 @@ class WP_Widget_Archivist extends WP_Widget {
 		
 	}
 
-	function form( $instance ) {
+	public function form( $instance ) {
 	
 		$instance = wp_parse_args( (array) $instance, array( 'title' => '', 'count' => 0, 'dropdown' => '', 'limit' => 0 ) );
 		
@@ -152,8 +153,10 @@ class WP_Widget_Archivist extends WP_Widget {
 	
 }
 
-add_action( 'widgets_init', create_function( '', 'return register_widget("WP_Widget_Archivist");' ) );
+function archivist_load_widget() {
 
+	register_widget( 'WP_Widget_Archivist' );
 
+}
 
-?>
+add_action( 'widgets_init', 'archivist_load_widget' );
