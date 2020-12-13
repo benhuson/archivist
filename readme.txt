@@ -17,8 +17,6 @@ Gives you a few extra function for the archives widget including limiting the am
 
 Just add the Archivist widget to your sidebar and configure.
 
-For more information and feature requests visit the <a href="http://www.benhuson.co.uk/wordpress-plugins/archivist/">Archivist plugin</a> page.
-
 
 == Screenshots ==
 
