@@ -5,7 +5,7 @@ Tags: wp_get_archives, archives, yearly, monthly, weekly, daily, widget
 Requires at least: 4.3
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.1
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,13 @@ For more information and feature requests visit the <a href="http://www.benhuson
 1. Archivist Widget
 
 == Changelog ==
+
+= 1.1 =
+
+* Tested up to WordPress 5.6.
+* Requires WordPress 4.3+
+* Deprecate PHP 4 style constructors and methods - require PHP 5.6+.
+* Add translations file.
 
 = 1.0.2 =
 

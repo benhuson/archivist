@@ -6,7 +6,7 @@
 Plugin Name: Archivist
 Plugin URI: https://github.com/benhuson/archivist
 Description: Hello, I'm an archivist. I'll look after all your old stuff and file it sensibly where people can find it. Not really, I'll just give you a few extra options for the archive widget.
-Version: 1.0.2
+Version: 1.1
 Requires at least: 4.3
 Requires PHP: 5.6
 Author: Ben Huson
