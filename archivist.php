@@ -10,6 +10,8 @@ Version: 1.0.2
 Author: Ben Huson
 Author URI: http://www.benhuson.co.uk/
 License: GPL2
+Text Domain: archivist
+Domain Path: /languages
 */
 
 
